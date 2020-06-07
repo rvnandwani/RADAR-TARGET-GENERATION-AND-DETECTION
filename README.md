@@ -21,9 +21,13 @@ something like
 I did it experimentally choosing the values by running with various sets of values
 that it should not be too small that we miss the actual target and it should not be too large that we get all the noise in our range map
 the best values I found were
+
 train_cells = 10;
+
 train_band = 8;
+
 guard_cells = 4;
+
 guard_band = 4;
 
 ## Sppress the non-thresholded cells at the edges
